@@ -12,12 +12,11 @@
             font-family: "Montserrat", sans-serif;
         }
         header h3 a{
-            transition: 0.5s;
             color: white;
         }
         header a:hover{
-            background-color: white;
-            color: black;
+            border-bottom: 1px solid white;
+            color: white;
         }
         #Top_news{
             margin-top: 0%; color: black; padding-left: 1%;
@@ -51,11 +50,11 @@
 <body>
     <header style="display: flex; background-color: black; color: white; ">            
 <!--logo --><img width="5%" src="https://upload.wikimedia.org/wikipedia/vi/f/f9/Bundesliga_logo_%282017%29.png" alt="">
-            <h3 style="margin-left: 5%;"><a href="BT Nhom6.html" style=" text-decoration: none; border: 2px dashed white; padding: 5%;">Home</a></h3>
-            <h3 style="margin-left: 6%; width: 18%;"><a href="#" style="padding: 2%; border: 2px dashed white;text-decoration: none; ">Premier League</a></h3>
-            <h3 style="margin-left: 0%;"><a href="#" style="padding: 8%; border: 2px dashed white;text-decoration: none; ">Laliga</a></h3>
-            <h3 style="margin-left: 7%;"> <a href="#" style="border: 2px dashed white;background-color: white; padding: 5%; color: black; text-decoration: none;">Bundesliga</a></h3>
-            <h3 style="margin-left: 7%;width: 10%;"><a href="#" style="text-decoration: none; border: 2px dashed white; padding: 5%; ">V-league</a></h3>
+            <h3 style="margin-left: 5%;"><a href="BT Nhom6.html" style=" text-decoration: none; padding: 5%;">Home</a></h3>
+            <h3 style="margin-left: 6%; width: 18%;"><a href="#" style="padding: 2%;text-decoration: none; ">Premier League</a></h3>
+            <h3 style="margin-left: 0%;"><a href="Laliga.html" style="padding: 8%;text-decoration: none; ">Laliga</a></h3>
+            <h3 style="margin-left: 7%;"> <a href="#" style="background-color: transparent; padding: 5%; color: white; text-decoration: none; border-bottom: 1px solid white;">Bundesliga</a></h3>
+            <h3 style="margin-left: 7%;width: 10%;"><a href="#" style="text-decoration: none; padding: 5%; ">V-league</a></h3>
     </header>
     <main>
         <h1 style="border-bottom: 1px rgb(150, 148, 148) solid; padding-bottom: 2%;">Bóng đá Đức</h1>
@@ -295,20 +294,26 @@
                     </div>
                 </section>
     </main>
-    <footer id="Chan_trang" style="background-color: rgb(112, 109, 109); width: 100%; height: auto; margin-top: 0%; color: white;">
-        <div>
-            <div style="display: flex;">
-                <img style="width: 13%;" src="LOGO_7.png" alt="">
-                <p style="width: 30%; margin-left: -1%; margin-top: 3%;">Nhóm 6 là nhóm thiết kế web chuyên nghiệp uy tín có trụ sở chính tại Tp Hà Nội. Chúng tôi thiết kế web theo chuẩn SEO, chuẩn di động. Áp dụng những công nghệ tiên tiến nhất hiện nay để thiết kế website như HTML, CSS. Nhằm mang lại sự hiệu quả thực sự cho khách hàng</p>
-                <h2 style="margin-top: 0.8%;">Contact to us :</h2>
-                <p style="font-size: large;"> <i class="fa-solid fa-phone"></i> 8412345678 - <i class="fa-solid fa-envelope"></i> Group6_VuongTruongDucAnh@gmail.com</p>
-            </div>
-        </div>
-        <div style="margin-left: 45%; margin-top: -10%; padding-top: 5%;">
-            <h3 style="display: inline-block;"> Đồng hành cùng chúng tôi!</h3>
-            <input style="font-size: larger; border-radius: 2%;border: 1px solid gray;" type="email" name="" id="" placeholder="Enter your email">
-            <button type="submit" style="font-size: larger; padding-left: 5%; padding-right: 5%; border-radius: 50px; background-color: white; border: 2px dashed pink; cursor: pointer;">Enter</button>
-        </div>
+    <footer style="background-color: white; margin-top: 0%;">
+        <ul style="width: 100%; text-align: left; display: flex;list-style: none;">
+            <li style="width: 100%; margin-left: -4%;"><img width="10%" src="LOGO_7.png" alt=""></li>
+            <li style="width: 30%; margin-left: -90%; margin-top: 1%;">Nhóm 6 là nhóm thiết kế web chuyên nghiệp uy tín có trụ sở chính tại Tp Hà Nội. Chúng tôi thiết kế web theo chuẩn SEO, chuẩn di động. Áp dụng những công nghệ tiên tiến nhất hiện nay để thiết kế website như HTML, CSS. Nhằm mang lại sự hiệu quả thực sự cho khách hàng</li>
+            <ul style="display: flex; flex-direction: column; list-style: none;margin-left: 0%;margin-top: 1%;">
+                <li><a style="font-size: small; text-decoration:underline gray; color: black;" href="#">About us</a></li>
+                <li><a  style="font-size: small;text-decoration:underline gray; color: black;" href="#">Contact</a></li>
+                <li><a  style="font-size: small;text-decoration:underline gray; color: black;" href="#">Our Git</li>
+                <li><a  style="font-size: small;text-decoration:underline gray; color: black;" href="#">My team</a></li>
+                <li><a  style="font-size: small;text-decoration:underline gray; color: black;" href="#">Our Project</a></li>
+            </ul>
+            <ul style="list-style: none; width:max-content;display: flex; flex-direction: column; margin-left: 10%;">
+                <li>On Social media: </li>
+                <li >
+                    <a style="font-size: 200%; color: rgb(0, 153, 255);" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a style="font-size: 200%; margin: 5%; color: rgb(255, 0, 93);" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a style="font-size: 200%; color: black;" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                 </li>
+            </ul>
+        </ul>
     </footer>
 </body>
 </html>
