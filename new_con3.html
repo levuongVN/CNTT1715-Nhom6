@@ -62,7 +62,14 @@
             z-index: 2;
             margin-top: 3.5%;
         }
-      
+        #share{
+            float: right; margin-top: -6%;
+        }
+        @media (max-width:1280px) {
+            #share{
+                margin-top: -6.5%;
+            }
+        }
     </style>
 </head>
 <body style="background-color: white; color: white;">
@@ -83,14 +90,11 @@
         <a id="Vl" href="#">
             V-League
         </a>
-        <label id="icon_1" for=""><i class="fa-solid fa-magnifying-glass"></i></label>
-        <input id="search" type="text" placeholder="        Tìm kiếm bài viết">
-        <button id="enter" type="button">Enter</button>
 </header>
     <main id="content" style=" width: 60%; margin-left: 15%; font-size: larger; color: black;">
         <h1 style="color: rgb(0, 179, 255); line-height: 180%;">Liverpool đón nhận tín hiệu tốt lành trước đại chiến Chelsea</h1>
         <p style="color: gray; font-size: 80%; border-top: 1px solid gray; border-bottom: 1px solid gray; padding-top: 1%;padding-bottom: 1%;">Thứ sáu, 23/02/2024 19:36 PM (GMT +7)</p>
-        <p style="float: right; margin-top: -6%;">SHARE <a href="#" style="color: rgb(0, 179, 255); font-size: 150%;" ><i class="fa-brands fa-facebook"></i></a></p>
+        <p id="share">SHARE <a href="#" style="color: rgb(0, 179, 255); font-size: 150%;" ><i class="fa-brands fa-facebook"></i></a></p>
         <h3 style="line-height: 150%; "> 
             Trợ lý HLV của Liverpool, Pep Lijnders mới đây đã đem đến một số thông đáng chú ý về lực lượng trước trận chung kết Carabao Cup gặp Chelsea.
         </h3>

@@ -21,23 +21,23 @@
         text-decoration: none;
         font-size: large;
       }
-      header li {
+      header a {
         height: max-content;
         margin-top: 0%;
-        margin-right: 10%;
+        margin-right: 8%;
         transition: ease;
       }
-      header ul li:nth-child(3) {
+      header ul a:nth-child(3) {
         border-bottom: 2px solid black;
       }
-      header ul li:nth-child(1):hover,
-      header ul li:nth-child(2):hover,
-      header ul li:nth-child(4):hover,
-      header ul li:nth-child(5):hover {
+      header ul a:hover,
+      header ul a:hover,
+      header ul a:hover,
+      header ul a:hover {
         border-bottom: 2px solid black;
       }
       ul {
-        width: 62%;
+        width:100%;
         margin-top: 2%;
         display: flex;
         text-align: center;
@@ -61,6 +61,9 @@
       #tin1 p {
         margin-bottom: 10%;
       }
+      @media (max-width:1280px) {
+
+      }
     </style>
   </head>
   <body>
@@ -78,11 +81,11 @@
         alt=""
       />
       <ul style="display: flex; list-style: none">
-        <li><a href="BT Nhom6.html">Home</a></li>
-        <li><a href="#">Premier League</a></li>
-        <li><a href="Laliga.html">Laliga</a></li>
-        <li><a href="Bundesliga.html">Bundesliga</a></li>
-        <li><a href="V-league.html">V-league</a></li>
+        <a href="BT Nhom6.html">Home</a>
+        <a id="nha" href="#">Premier League</a>
+        <a href="Laliga.html">Laliga</a>
+        <a href="Bundesliga.html">Bundesliga</a>
+        <a href="V-league.html">V-league</a>
       </ul>
     </header>
     <main>
