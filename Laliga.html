@@ -127,6 +127,54 @@
       #hieu_soAth{
         margin-left: 10%; margin-right: 14.0%;
       }
+      #img_betis{
+        margin-left: 3%; margin-top: 1%;
+      }
+      #betis{
+        margin-left: 2%; margin-right: 14.2%;
+      }
+      #win_Betis{
+        margin-left: -2%; margin-right: 1.7%;
+      }
+      #lose_Betis{
+        margin-left: 11%; margin-right: 12.5%;
+      }
+      #hieu_soBetis{
+        margin-left: 10%; margin-right: 14.5%;
+      }
+      #real_sociedad{
+        margin-left: 2%; margin-right: 5.6%;
+      }
+      #win_sociedad{
+        margin-left: -2%; margin-right: 1.7%;
+      }
+      #lose_sociedad{
+        margin-left: 11%; margin-right: 12.5%;
+      }
+      #las{
+        margin-left: 2%; margin-right: 8.5%;
+      }
+      #lose_Las{
+        margin-left: 11%; margin-right: 12.5%;
+      }
+      #draw_las{
+        margin-right: 5.7%;
+      }
+      #valencia{
+        margin-left: 2%; margin-right: 10.5%;
+      }
+      #lose_valen{
+        margin-left: 11%; margin-right: 13%;
+      }
+      #draw_valen{
+        margin-right: 6.5%;
+      }
+      #social{
+        list-style: none;width: 55%;height: fit-content; text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-right: 40%;
+      }
       @media (max-width:1280px) {
         #text_title2{
           font-size: 15px;
@@ -193,6 +241,51 @@
         }
         #hieu_soAth{
           margin-right: 13.8%;
+        }
+        #img_betis{
+          margin-top: 2%;
+        }
+        #betis{
+            margin-right: 13.9%;
+        }
+        #win_Betis{
+          margin-right: 1%;
+        }
+        #lose_Betis{
+          margin-right: 12.2%;
+        }
+        #hieu_soBetis{
+          margin-right: 14.3%;
+        }
+        #real_sociedad{
+          margin-right: 4.1%;
+        }
+        #win_sociedad{
+          margin-right: 1%;
+        }
+        #lose_sociedad{
+          margin-right: 12%;
+        }
+        #las{
+          margin-right:7.2%;
+        }
+        #lose_las{
+          margin-left: 11%; margin-right: 12.0%;
+        }
+        #draw_las{
+          margin-right: 4.9%;
+        }
+        #valencia{
+          margin-right: 9.5%;
+        }
+        #lose_valen{
+          margin-right: 12.5%;
+        }
+        #draw_valen{
+          margin-right: 5.6%;
+        }
+        #social{
+          margin-right:20%;
         }
       }
     </style>
@@ -789,20 +882,20 @@
             </div>
             <div style="display: flex; width: 100%; font-size: normal; justify-content: left;border-bottom: 1px solid rgb(188, 184, 184);">
                 <p style="margin-left: 2%;">6</p>
-                <img width="3%" height="3%" style="margin-left: 3%; margin-top: 1%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/1200px-Real_betis_logo.svg.png" alt="">
-                <p style="margin-left: 2%; margin-right: 14.2%;">Betis</p>
-                <p style="margin-left: -2%; margin-right: 1.7%;">10</p>
-                <p style="margin-left: 11%; margin-right: 12.5%;">12</p>
+                <img id="img_betis" width="3%" height="3%"  src="https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Real_betis_logo.svg/1200px-Real_betis_logo.svg.png" alt="">
+                <p id="betis" >Betis</p>
+                <p id="win_Betis">10</p>
+                <p id="lose_Betis">12</p>
                 <p style="margin-right: 5.7%;">4</p>
-                <p style="margin-left: 10%; margin-right: 14.5%;">31:26</p>
+                <p id="hieu_soBetis" >31:26</p>
                 <p>42</p>
             </div>
             <div style="display: flex; width: 100%; font-size: normal; justify-content: left;border-bottom: 1px solid rgb(188, 184, 184);">
                 <p style="margin-left: 2%;">7</p>
                 <img width="3%" height="3%" style="margin-left: 3%; margin-top: 1%;" src="https://upload.wikimedia.org/wikipedia/vi/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png" alt="">
-                <p style="margin-left: 2%; margin-right: 5.6%;">Real Sociedad</p>
-                <p style="margin-left: -2%; margin-right: 1.7%;">10</p>
-                <p style="margin-left: 11%; margin-right: 12.5%;">10</p>
+                <p id="real_sociedad">Real Sociedad</p>
+                <p id="win_sociedad">10</p>
+                <p id="lose_sociedad">10</p>
                 <p style="margin-right: 5.7%;">7</p>
                 <p style="margin-left: 10%; margin-right: 14.0%;">37:29</p>
                 <p>40</p>
@@ -810,20 +903,20 @@
             <div style="display: flex; width: 100%; font-size: normal; justify-content: left;border-bottom: 1px solid rgb(188, 184, 184);">
                 <p style="margin-left: 2%;">9</p>
                 <img width="3%" height="3%" style="margin-left: 3%; margin-top: 1%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/20/UD_Las_Palmas_logo.svg/1200px-UD_Las_Palmas_logo.svg.png" alt="">
-                <p style="margin-left: 2%; margin-right: 8.5%;">Las Palmas</p>
+                <p id="las">Las Palmas</p>
                 <p style="margin-left: -2%; margin-right: 1.7%;">10</p>
-                <p style="margin-left: 11%; margin-right: 12.5%;">7</p>
-                <p style="margin-right: 5.7%;">10</p>
+                <p id="lose_las">7</p>
+                <p id="draw_las">10</p>
                 <p style="margin-left: 10%; margin-right: 14.0%;">29:29</p>
                 <p>37</p>
             </div> 
             <div style="display: flex; width: 100%; font-size: normal; justify-content: left;border-bottom: 1px solid rgb(188, 184, 184);">
                 <p style="margin-left: 2%;">10</p>
                 <img width="3%" height="3%" style="margin-left: 3%; margin-top: 1%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/1200px-Valenciacf.svg.png" alt="">
-                <p style="margin-left: 2%; margin-right: 10.5%;">Valencia</p>
+                <p id="valencia">Valencia</p>
                 <p style="margin-left: -2%; margin-right: 1.7%;">10</p>
-                <p style="margin-left: 11%; margin-right: 13%;">7</p>
-                <p style="margin-right: 6.5%;">9</p>
+                <p id="lose_valen">7</p>
+                <p id="draw_valen" >9</p>
                 <p style="margin-left: 10%; margin-right: 14.5%;">31:31</p>
                 <p>37</p>
             </div> 
@@ -852,27 +945,27 @@
         </div>
       </section>
     </main>
-    <footer style="background-color: greenyellow;">
-        <ul style="width: 100%; text-align: left; display: flex;list-style: none;">
-            <li style="width: 100%; margin-left: -4%;"><img width="10%" src="LOGO_7.png" alt=""></li>
-            <li style="width: 30%; margin-left: -90%; margin-top: 1%;">Nhóm 6 là nhóm thiết kế web chuyên nghiệp uy tín có trụ sở chính tại Tp Hà Nội. Chúng tôi thiết kế web theo chuẩn SEO, chuẩn di động. Áp dụng những công nghệ tiên tiến nhất hiện nay để thiết kế website như HTML, CSS. Nhằm mang lại sự hiệu quả thực sự cho khách hàng</li>
-            <ul style="display: flex; flex-direction: column; list-style: none;margin-left: -25%;margin-top: 1%;">
-                <li><a style="font-size: small; text-decoration:underline gray;" href="#">About us</a></li>
-                <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Contact</a></li>
-                <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Our Git</li>
-                <li><a  style="font-size: small;text-decoration:underline gray;" href="#">My team</a></li>
-                <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Our Project</a></li>
-            </ul>
-            <ul style="list-style: none; width:max-content;display: flex; flex-direction: column; margin-left: -15%;">
-                <li>On Social media: </li>
-                <li >
-                    <a style="font-size: 200%; color: rgb(0, 153, 255);" href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a style="font-size: 200%; margin: 5%; color: rgb(255, 0, 93);" href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a style="font-size: 200%;" href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                 </li>
-            </ul>
-        </ul>
-    
-    </footer>
+    <footer style="background-color: rgb(222, 219, 219);">
+      <ul style="width: 100%; text-align: left; display: flex;list-style: none;">
+        <img width="10%" height="10%" style="margin-left: -4%;" src="LOGO_7.png" alt="">
+          <li style="width: max-content;margin-right: 5%; margin-top: 1%;">Nhóm 6 là nhóm thiết kế web chuyên nghiệp uy tín có trụ sở chính tại Tp Hà Nội. Chúng tôi thiết kế web theo chuẩn SEO, chuẩn di động. Áp dụng những công nghệ tiên tiến nhất hiện nay để thiết kế website như HTML, CSS. Nhằm mang lại sự hiệu quả thực sự cho khách hàng</li>
+          <ul style="display: flex; flex-direction: column; list-style: none;margin-left: -10%;margin-top: 1%;">
+              <li><a style="font-size: small; text-decoration:underline gray;" href="#">About us</a></li>
+              <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Contact</a></li>
+              <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Our Git</li>
+              <li><a  style="font-size: small;text-decoration:underline gray;" href="#">My team</a></li>
+              <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Our Project</a></li>
+          </ul>
+          <ul id="social" >
+              <li>On Social media: </li>
+              <li style="display: flex; margin-left: 0%;" >
+                  <a style="font-size: 200%; color: rgb(0, 153, 255);" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a style="font-size: 200%; margin: 6%; margin-top: -0.5%; color: rgb(255, 0, 93);" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a style="font-size: 200%; color: black;" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+               </li>
+          </ul>
+      </ul>
+  
+  </footer>
   </body>
 </html>
