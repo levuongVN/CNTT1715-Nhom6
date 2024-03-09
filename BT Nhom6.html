@@ -151,6 +151,9 @@
         #name_clb3{
             margin-right: 17%; margin-left: 0.5%;
         }
+        #bxh{
+            background:#07F2F2; width: 68%; text-align: center;
+        }
         @media (max-width:1280px) {
             #nha{
                 width:160px;
@@ -167,6 +170,60 @@
             #name_clb3{
                 margin-right:17.5%;
             }
+            #topnew_duoi{
+                display: flex;background-color: white; width: 68%;
+            }
+            #win_liver{
+                margin-right: 8%;
+            }
+            #win_MC{
+                margin-right: 8%;
+            }
+        }
+        @media (max-width:884px) {
+            body{
+                font-size: 15px;
+            }
+            #search{
+            width: 16%;
+            height: min-content;
+            margin-top: 3%;
+            font-size: small;
+            }
+        #nha{
+            width:125px;
+        }
+        #Vl{
+            width: 75px;
+        }
+        #enter{
+            font-size: 14px;
+            margin-left: 0.3%;
+        }
+        #top_new{
+            width: 90%;
+        }
+        #title_top{
+            width: 68%;
+            margin-left: 1%;
+            margin-top: 1%;
+            color: black;
+            transition: 0.4s;
+            text-decoration: none;
+            font-size: larger;
+        }
+        #topnew_duoi{
+            width: 90%;
+        }
+        #bxh{
+            width: 90%;
+        }
+        #win_liver{
+            margin-right: 8.5%;
+        }
+        #win_MC{
+            margin-right: 8.2%;
+        }
         }
     </style>
 </head>
@@ -185,7 +242,7 @@
             <a id="buldes" href="Bundesliga.html">
                 Bundesliga
             </a>
-            <a id="Vl" href="V-league.html">
+            <a id="Vl" href="testvleadue.html">
                 V-League
             </a>
             <label id="icon_1" for=""><i class="fa-solid fa-magnifying-glass"></i></label>
@@ -199,7 +256,7 @@
             <a id="title_top" href="Top_trend_news.html"><h2 id="title_top">Chelsea đón tin vui trước chung kết gặp Liverpool ở Carabao Cup</h2></a>
             <p id="text_top">Trước trận chung kết Carabao Cup gặp Liverpool cuối tuần này, Chelsea đã nhận được một cú hích về lực lượng.</p>
         </div>
-        <!--top_new ben duoi --><div style="display: flex;background-color: white; width: 68%;">
+        <!--top_new ben duoi --><div id="topnew_duoi" >
             <div id="top_new1" style="padding-left: 1.5%;" >
                 <img id="img_top_new1" src="https://cdn-img.thethao247.vn/resize_800x528/storage/files/camhm/2024/02/23/nals-brcae-1708678511.jpg" alt="">
                 <a id="title_top1" href="Top_new_duoi.html"><h4 id="title_top1">Bộ kỹ năng độc đáo của Ronaldo khiến huyền thoại Barca choáng váng</h4></a>
@@ -213,7 +270,7 @@
                 <a id="title_top3" href="Top_new_duoi3.html"><h4 id="title_top3">Mbappe tiến tới thỏa thuận 'vượt mặt' Ronaldo ở Real Madrid </h4></a>
             </div>
         </div>
-        <!--BXH--> <section id="bxh" style="background:#07F2F2; width: 68%; text-align: center;">
+        <!--BXH--> <section id="bxh" >
             <div>
                 <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/560px-Premier_League_Logo.svg.png" width="10%" style="margin-top: 1%" alt="">
                 <div id="bxh_nha" style="display: flex; background-color:#340040;width:auto;margin-left: 0%; color: white;">
@@ -229,7 +286,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/0/0c/Liverpool_FC.svg/350px-Liverpool_FC.svg.png" width="2.5%" height="2.5%" style="margin-top:1.5% ;margin-left: -0.5%;" alt="">
                         <p style="margin-right: 15%; margin-left: 0.5%;">Liverpool</p>
                         <p style="margin-right: 10%;">26</p>
-                        <p style="margin-right: 8%;">18</p>
+                        <p id="win_liver">18</p>
                         <p style="margin-right: 6.5%;">63:25</p>
                         <p>60</p>
                     </div>
@@ -238,7 +295,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/1/1d/Manchester_City_FC_logo.svg/380px-Manchester_City_FC_logo.svg.png" width="2.5%" height="2.5%" style="margin-top:2% ;margin-left: -0.5%;" alt="">
                         <p id="name_clb2">Manchester City</p>
                         <p style="margin-right: 10.3%; margin-left: -5.8%;">25</p>
-                        <p style="margin-right: 8%;">17</p>
+                        <p id="win_MC" >17</p>
                         <p style="margin-right: 6.5%;">58:26</p>
                         <p>56</p>
                     </div>
