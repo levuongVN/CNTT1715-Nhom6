@@ -110,7 +110,7 @@
             color: black;
             transition: 0.4s;
             margin-left: 10%;
-            margin-top: 0%;
+            margin-top: -5%;
             width: 100%;
         }
         #title_top2:hover{
@@ -125,7 +125,7 @@
             color: black;
             transition: 0.4s;
             margin-left: 16%;
-            margin-top: 0%;
+            margin-top: -5%;
             width: 75%;            
         }
         #title_top3:hover{
@@ -154,6 +154,33 @@
         #bxh{
             background:#07F2F2; width: 68%; text-align: center;
         }
+        #topnew_duoi{
+                display: flex;background-color: white; width: 68%;
+            }
+            #win_liver{
+                margin-right: 8%;
+            }
+            #win_MC{
+                margin-right: 8%;
+            }
+            #win_arsenal{
+                margin-right: 8%;
+            }
+            #win_Aston{
+                margin-right:8%;
+            }
+            #tin_moi_nhat{
+                background-color: white; width: 70%;
+            }
+            #win_tot{
+                margin-right: 7.6%;
+            }
+            #title1{
+                margin-left: 1.5%;
+            }
+            #text_news_con1{
+                margin-left: 1.5%;
+            }
         @media (max-width:1280px) {
             #nha{
                 width:160px;
@@ -169,15 +196,6 @@
             }
             #name_clb3{
                 margin-right:17.5%;
-            }
-            #topnew_duoi{
-                display: flex;background-color: white; width: 68%;
-            }
-            #win_liver{
-                margin-right: 8%;
-            }
-            #win_MC{
-                margin-right: 8%;
             }
         }
         @media (max-width:884px) {
@@ -224,6 +242,54 @@
         #win_MC{
             margin-right: 8.2%;
         }
+        #win_arsenal{
+                margin-right: 8.5%;
+            }
+            #win_Aston{
+                margin-right:8.5%;
+            }
+            #win_tot{
+                margin-right: 7.8%;
+            }
+            #tin_moi_nhat{
+                margin-left: -10%;
+                 width: 80%;
+            }
+            #title1{
+                margin-left: -1.5%;
+                font-size: medium;
+                margin-top: 0%;
+            }
+            #text_news_con1{
+                font-size: small;
+                margin-left: -1.5%;
+            }
+            #title2{
+                font-size: medium;
+                margin-left: -3.0%;
+                margin-top: 0%;
+            }
+            #text_news_con2{
+                font-size: small;
+                margin-left: -3%;
+            }
+            #title3{
+                font-size: medium;
+                margin-top: 0%;
+                margin-left: -2.5%;
+            }
+            #text_news_con3{
+                font-size: small;
+                margin-left: -2.5%;
+            }
+            #title4{
+                font-size: medium;
+                margin-left: -2%;
+            }
+            #text_news_con4{
+                font-size: small;
+                margin-left: -2%;
+            }
         }
     </style>
 </head>
@@ -252,7 +318,7 @@
     <main id="content" style="background-color: transparent;">
         <h1 style="color: white;">Tin Quốc Tế</h1>
         <div id="top_new" style="display: flex;">
-            <img id="img_top_new" src="https://cdn-img.thethao247.vn/resize_1080x716/storage/files/tranvutung/2024/02/23/chelsea-vs-liverpool-carabao-cup-1708676083-151709avatar.jpg" alt="">
+            <img id="img_top_new"src="https://cdn-img.thethao247.vn/resize_1080x716/storage/files/tranvutung/2024/02/23/chelsea-vs-liverpool-carabao-cup-1708676083-151709avatar.jpg" alt="">
             <a id="title_top" href="Top_trend_news.html"><h2 id="title_top">Chelsea đón tin vui trước chung kết gặp Liverpool ở Carabao Cup</h2></a>
             <p id="text_top">Trước trận chung kết Carabao Cup gặp Liverpool cuối tuần này, Chelsea đã nhận được một cú hích về lực lượng.</p>
         </div>
@@ -304,7 +370,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/5/53/Arsenal_FC.svg/360px-Arsenal_FC.svg.png" width="2.5%" height="2.5%" style="margin-top:1.5% ;margin-left: -0.5%;" alt="">
                         <p id="name_clb3">Arsenal </p>
                         <p style="margin-right: 10.2%;">25</p>
-                        <p style="margin-right: 8%;">17</p>
+                        <p id="win_arsenal">17</p>
                         <p style="margin-right: 6.5%;">58:22</p>
                         <p>55</p>
                     </div>
@@ -313,7 +379,7 @@
                         <img src="data:image/png;base64,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" width="2.5%" height="2.5%" style="margin-top:2.5% ;margin-left: -0.5%;" alt="">
                         <p style="margin-right: 13.5%; margin-left: 0.5%;">Aston Villa</p>
                         <p style="margin-right: 10.5%;">25</p>
-                        <p style="margin-right:8%;">15</p>
+                        <p id="win_Aston">15</p>
                         <p style="margin-right: 6.5%;">	52:33</p>
                         <p>49</p>
                     </div>
@@ -322,7 +388,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/b/bd/Tottenham_Hotspur_FC.svg/262px-Tottenham_Hotspur_FC.svg.png" width="2%" height="2%" style="margin-top:1.5% ;margin-left: -0.5%;" alt="">
                         <p style="margin-right: 13.5%; margin-left: 0.5%;">Tottenham</p>
                         <p style="margin-right: 10.5%;">25</p>
-                        <p style="margin-right: 7.8%;">14</p>
+                        <p id="win_tot" >14</p>
                         <p style="margin-right: 6.5%;">52:38</p>
                         <p>47</p>
                     </div>
@@ -331,47 +397,47 @@
         </section>
     <div>
 
-        <div style="background-color: white; width: 70%;">
+        <div id="tin_moi_nhat">
             <h2>Tin mới nhất!!!</h2>
             <div id="news_con1" style="display: flex; width: 100%; border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
                 <div><img src="https://cdn-img.thethao247.vn/resize_784x500/storage/files/btvttqt1/2024/02/23/du-an-moi-1708689618-190220avatar.jpg" width="55%" alt=""></div>
-                <div style="margin-left: -23%;">
-                    <a id="title_news_con" href="new_con.html"><h3>Sau Toni Kross, đến lượt Sergio Aguero sẽ trở lại với bóng đá đỉnh cao</h3></a>
-                    <p id="text_news_con">Sergio Aguero có thể gây sốc khi trở lại bóng đá chuyên nghiệp sau cuộc điện thoại đầy cảm xúc từ những bác sĩ riêng của anh.</p>
+                <div style="margin-left: -25%;">
+                    <a id="title_news_con" href="new_con.html"><h3 id="title1">Sau Toni Kross, đến lượt Sergio Aguero sẽ trở lại với bóng đá đỉnh cao</h3></a>
+                    <p id="text_news_con1">Sergio Aguero có thể gây sốc khi trở lại bóng đá chuyên nghiệp sau cuộc điện thoại đầy cảm xúc từ những bác sĩ riêng của anh.</p>
                 </div>
             </div>
         <div id="news_con1" style="display: flex; width: 100%;border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
             <div><img src="https://cdn-img.thethao247.vn/resize_784x500/storage/files/btvttqt1/2024/02/23/du-an-moi-6-1708670778-134929avatar.jpg" width="56.5%" alt=""></div>
             <div style="margin-left: -22%;">
-                <a id="title_news_con" href="new_con2.html"><h3>Kết quả bốc thăm vòng 1/8 Europa League 2023/24: Nước Anh gặp khó</h3></a>
-                <p id="text_news_con">Kết quả bốc thăm vòng 16 đội Europa League và Conference League: Các đại diện của nước Anh gặp khó và nhiều cặp đấu hấp dẫn.</p>
+                <a id="title_news_con" href="new_con2.html"><h3 id="title2">Kết quả bốc thăm vòng 1/8 Europa League 2023/24: Nước Anh gặp khó</h3></a>
+                <p id="text_news_con2">Kết quả bốc thăm vòng 16 đội Europa League và Conference League: Các đại diện của nước Anh gặp khó và nhiều cặp đấu hấp dẫn.</p>
             </div>
         </div>
         <div id="news_con1" style="display: flex; width: 100%;border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
         <div><img src="https://cdn-img.thethao247.vn/resize_784x500/storage/files/tranvutung/2024/02/23/liverpool-vs-chelsea-carabao-cup-1708685453-175305avatar.jpg" width="63.5%" alt=""></div>
         <div style="margin-left: -16.5%;">
-            <a id="title_news_con" href="new_con3.html"> <h3> Liverpool đón nhận tín hiệu tốt lành trước đại chiến Chelsea</h3> </a>
-            <p id="text_news_con">Trợ lý HLV của Liverpool, Pep Lijnders mới đây đã đem đến một số thông đáng chú ý về lực lượng trước trận chung kết Carabao Cup gặp Chelsea.</p>
+            <a id="title_news_con" href="new_con3.html"> <h3 id="title3"> Liverpool đón nhận tín hiệu tốt lành trước đại chiến Chelsea</h3> </a>
+            <p id="text_news_con3">Trợ lý HLV của Liverpool, Pep Lijnders mới đây đã đem đến một số thông đáng chú ý về lực lượng trước trận chung kết Carabao Cup gặp Chelsea.</p>
         </div>
         </div>
         <div id="news_con1" style="display: flex; width: 100%;border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
             <div><img src="https://cdn-img.thethao247.vn/resize_784x500/storage/files/btvttqt2/2024/02/23/du-an-moi-41-1708685329-175132avatar.jpg" width="63.3%" alt=""></div>
             <div style="margin-left: -16.5%;">
-            <a id="title_news_con" href="new_con4.html"><h3>Casemiro chỉ ra 'món nợ' lớn với Ronaldo</h3></a>
-            <p id="text_news_con">Casemiro cho rằng mình sẽ mãi mãi mắc nợ Cristiano Ronaldo khi đồng đội cũ chơi cùng 2 đội bóng đã trao cho anh vô số danh hiệu và bàn thắng.</p>
+            <a id="title_news_con" href="new_con4.html"><h3 id="title4">Casemiro chỉ ra 'món nợ' lớn với Ronaldo</h3></a>
+            <p id="text_news_con4">Casemiro cho rằng mình sẽ mãi mãi mắc nợ Cristiano Ronaldo khi đồng đội cũ chơi cùng 2 đội bóng đã trao cho anh vô số danh hiệu và bàn thắng.</p>
             </div>
             </div>
         <div id="news_con1" style="display: flex; width: 100%;border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
             <div><img src="https://cdn-img.thethao247.vn/resize_784x500/storage/files/btvttqt1/2024/02/23/s-1708691446-193251avatar.jpg" width="83.1%" alt=""></div>
             <div style="margin-left: -5%;">
-                <a id="title_news_con" href="new_con5.html"><h3>Ronaldo lần đầu lên tiếng về cuộc đua giữa anh và Leo Messi</h3></a>
+                <a id="title_news_con" href="new_con5.html"><h3 id="title">Ronaldo lần đầu lên tiếng về cuộc đua giữa anh và Leo Messi</h3></a>
                 <p id="text_news_con">“Trong sử sách, tất cả các kỷ lục khác sẽ có ở đó” - Khi Cristiano Ronaldo bình luận về việc liệu chiến thắng World Cup của Lionel Messi có giải quyết được cuộc tranh luận GOAT hay không.</p>
             </div>
             </div>
         <div id="news_con1" style="display: flex; width: 100%;border-top: 1px gray solid;padding-top: 1%; padding-bottom: 1%;">
                 <div><img src="https://cdn-img.thethao247.vn/resize_1080x716/storage/files/huynguyen/2024/02/23/354828635-573093918357859-3923451376337520393-n-1688008041-101122-1708691862.jpg" width="30.5%" alt=""></div>
                 <div style="margin-left: -68%;">
-                <a id="title_news_con" href="new_con6.html"><h3>Thần đồng Việt Nam xé lưới Dortmund tỏa sáng đầu năm 2024</h3></a>
+                <a id="title_news_con" href="new_con6.html"><h3 id="title">Thần đồng Việt Nam xé lưới Dortmund tỏa sáng đầu năm 2024</h3></a>
                 <p id="text_news_con">“Lê Huỳnh Triệu đã có được bàn thắng ở VCK U19 Quốc gia trong màu áo của U19 Đồng Tháp.</p>
                 </div>
             </div>
