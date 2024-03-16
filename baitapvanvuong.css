@@ -1,0 +1,143 @@
+.con {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+  }
+  .con2 {
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    margin-top: -40%;
+    width: 100%;
+    height: 620px;
+    margin-top: -100%;
+  }
+  .con:hover .con2 {
+    opacity: 1;
+  }
+  #box1.box{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(40, 39, 39);
+    margin-top: -3%;
+  }
+  #box2.box2{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(44, 43, 43);
+    margin-top: -3.5%;
+  }
+  #choang:hover{
+    color: aqua;
+  }
+  #choang{
+    color: white;
+  }
+  #box3.box3{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(40, 39, 39);
+    margin-top: -1%;
+  }
+  #box4.box4{
+    width: 100%;
+    height: 1250px;
+    background-color: rgb(44, 43, 43);
+    margin-top: -3.5%;
+  }
+  #giai{
+    width: 70%;
+    height: 130px;
+    background-color: rgb(190, 181, 199);
+    margin-left: 15%;
+    border-radius: 1%;
+  }
+  #thidau:hover{
+    color: red;
+  }
+  #thidau{
+    color: rgb(92, 39, 119);
+  }
+  #tran1{
+    width: 35%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+    border: solid gray 1px;
+  }
+  #tran2{
+    width: 35%;
+    height: 100px;
+    margin-left: 50%;
+    background-color: white;
+    margin-top: -7.15%;
+    border: solid gray 1px;
+  }
+  #tran3{
+    width: 35%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+    border: solid gray 1px;
+  }
+  #tran4{
+    width: 35%;
+    height: 100px;
+    margin-left: 50%;
+    background-color: white;
+    margin-top: -7.17%;
+    border: solid gray 1px;
+  }
+  #tran5{
+    width: 35%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+    border: solid gray 1px;
+  }
+  #tran6{
+    width: 35%;
+    height: 100px;
+    margin-left: 50%;
+    background-color: white;
+    margin-top: -7.17%;
+    border: solid gray 1px;
+  }
+  #tran7{
+    width: 35%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+    border: solid gray 1px;
+  }
+  #tran8{
+    width: 35%;
+    height: 100px;
+    margin-left: 50%;
+    background-color: white;
+    margin-top: -7.17%;
+    border: solid gray 1px;
+  }
+  #tran9{
+    width: 35%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+    border: solid gray 1px;
+  }
+  #tran10{
+    width: 35%;
+    height: 100px;
+    margin-left: 50%;
+    background-color: white;
+    margin-top: -7.17%;
+    border: solid gray 1px;
+  }
+  #box5.box5{
+    width: 100%;
+    height: 640px;
+    background-color: rgb(44, 43, 43);
+  
+  }
+ 
+  
