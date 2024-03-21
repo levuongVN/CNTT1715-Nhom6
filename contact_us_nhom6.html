@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');        
+       body{
+           background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHlleTY2eHUwbTkxbW1pb2dycTV6bG10cHhjM3IwaHdmbjU2OTRvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TxVVB6PfWMjE4/giphy.gif');
+           font-family: "Montserrat", sans-serif;
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
+       header a{
+           color:black;
+           text-decoration: none;
+           margin-top: 3%;
+           margin-right: 2.5%;
+       }
+       #nha,#laliga,#buldes,#Vl,#news{
+           background-color: transparent;
+           border: 2px dashed black;
+           border-radius:50px;
+           height: 12%;
+           padding: 0.3%;
+           transition: 0.3s;
+       }
+       #nha:hover, #laliga:hover,#buldes:hover,#Vl:hover, #news:hover{
+           background-color: black;
+           background-size: contain;
+           background-repeat: repeat;
+           color: white;
+       }
+       #form_contact{
+           background-color: white;
+           width: 50%;
+           height: 340px;
+           margin-left: 25%;
+           text-align: center;
+       }
+       #first_name{
+           width: 45%;
+           margin: 1%;
+           padding: 1%;
+           transition: 0.5s;
+       }
+       #first_name:focus {
+        background-color: black;
+        color: white;
+       }
+       #last_name{
+           width: 45%;
+           margin: 1%;
+           padding: 1%;
+           transition: 0.5s;
+       }
+       #last_name:focus{
+        background-color: black;
+       }
+       #email{
+           width: 45%;
+           margin: 1%;
+           padding: 1%;
+       }
+       #the_phone{
+           margin: 1%;
+           width: 45%;
+           padding: 1%;
+       }
+       #message{
+           width: 97%;
+           padding-bottom: 5%;
+           
+       }
+       #sub{
+        padding: 1.5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 30%;
+        border: none;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        background-color: rgb(16, 96, 244);
+        color: white;
+        transition: 0.3s;
+       }
+       #sub:hover{
+        cursor: pointer;
+        background-color: rgb(239, 177, 97);
+        color: black;
+       }
+       #thanks{
+        position: relative;
+        top: 3%;
+        margin-left: -70%;
+        color:rgb(13, 183, 126);
+       }
+       #text_modau{
+        padding-top: 3%;
+       }
+       @media (max-width:1280px) {
+           #nha{
+               width:160px;
+           }
+           #Vl{
+               width: 100px;
+           }
+       }
+       @media (max-width:884px) {
+           body{
+               font-size: 15px;
+           }
+           #nha{
+           width:125px;
+       }
+       #Vl{
+           width: 75px;
+       }
+       }
+   </style>
+</head>
+<body>
+    
+    <header style="background-color: white; width: auto; display: flex;">
+        <img style="width: 8%;" src="LOGO_7.png" alt="">
+        <a id="news" href="BT Nhom6.html">
+            Home
+        </a>
+        <a id="nha" href="#">
+            Premier League
+        </a>
+        <a id="laliga" href="Laliga.html">
+            Laliga
+        </a>
+        <a id="buldes" href="Bundesliga.html">
+            Bundesliga
+        </a>
+        <a id="Vl" href="Vleague.html">
+            V-League
+        </a>
+</header>
+
+<form id="form_contact" action="">
+    <h2 id="text_modau">For your product!</h2>
+    <input id="first_name" type="text" placeholder="First Name">
+    <input id="last_name" type="text" placeholder="Last Name">
+    <br>
+    <input id="email" type="email" placeholder="Email">
+    <input id="the_phone" type="text" placeholder="Phone">
+    <br>
+    <input type="text" name="" id="message" placeholder="Message to me ">
+    <br>
+    <button type="submit" id="sub">Submit</button>
+    <br>
+    <i id="thanks">Thanks for trust me</i>
+</form>
+<footer style="background-color: white; margin-top: 0%;">
+    <ul style="width: 100%; text-align: left; display: flex;list-style: none;">
+        <li style="width: 100%; margin-left: -4%;"><img width="10%" src="LOGO_7.png" alt=""></li>
+        <li style="width: 30%; margin-left: -90%; margin-top: 1%;">Nhóm 6 là nhóm thiết kế web chuyên nghiệp uy tín có trụ sở chính tại Tp Hà Nội. Chúng tôi thiết kế web theo chuẩn SEO, chuẩn di động. Áp dụng những công nghệ tiên tiến nhất hiện nay để thiết kế website như HTML, CSS. Nhằm mang lại sự hiệu quả thực sự cho khách hàng</li>
+        <ul style="display: flex; flex-direction: column; list-style: none;margin-left: 0%;margin-top: 1%;">
+            <li><a style="font-size: small; text-decoration:underline gray;" href="#">About us</a></li>
+            <li><a  style="font-size: small;text-decoration:underline gray;" href="contact_us_nhom6.html">Contact</a></li>
+            <li><a  style="font-size: small;text-decoration:underline gray;" href="https://github.com/levuongVN/BTL-Web">Our Git</li>
+            <li><a  style="font-size: small;text-decoration:underline gray;" href="#">My team</a></li>
+            <li><a  style="font-size: small;text-decoration:underline gray;" href="#">Our Project</a></li>
+        </ul>
+        <ul style="list-style: none; width:max-content;display: flex; flex-direction: column; margin-left: 10%;">
+            <li>On Social media: </li>
+            <li >
+                <a style="font-size: 200%; color: rgb(0, 153, 255);" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a style="font-size: 200%; margin: 5%; color: rgb(255, 0, 93);" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a style="font-size: 200%;" href="#"><i style="color: black;" class="fa-brands fa-x-twitter"></i></a>
+             </li>
+        </ul>
+    </ul>
+</footer>
+</body>
+</html>
