@@ -241,17 +241,43 @@
         #lose_Hei{
             margin-right: 8.5%;
         }
-    }
+        }
+        #img_logo{
+            width: 5%;
+        }
+        #home_page{
+            margin-left: 5%;
+        }
+        #nha_page{
+            margin-left: 6%; width: 18%;
+        }
+        #laliga_page{
+            margin-left: 0%;
+        }
+        @media (max-width:884px) {
+            #img_logo{
+                width: 5%;
+                height: 5%;
+                margin-top: 1.5%;
+            }
+            #home_page{
+                margin-left: 1%;
+            }
+            #nha_page{
+                width: 18.7%;
+                margin-left: 2%;
+            }
+        }
     </style>
 </head>
 <body>
     <header style="display: flex; background-color: black; color: white; ">            
-<!--logo --><img width="5%" src="https://upload.wikimedia.org/wikipedia/vi/f/f9/Bundesliga_logo_%282017%29.png" alt="">
-            <h3 style="margin-left: 5%;"><a href="BT Nhom6.html" style=" text-decoration: none; padding: 5%;">Home</a></h3>
-            <h3 style="margin-left: 6%; width: 18%;"><a href="#" style="padding: 2%;text-decoration: none; ">Premier League</a></h3>
-            <h3 style="margin-left: 0%;"><a href="Laliga.html" style="padding: 8%;text-decoration: none; ">Laliga</a></h3>
-            <h3 style="margin-left: 7%;"> <a href="#" style="background-color: transparent; padding: 5%; color: white; text-decoration: none; border-bottom: 1px solid white;">Bundesliga</a></h3>
-            <h3 style="margin-left: 7%;width: 10%;"><a href="testvleadue.html" style="text-decoration: none; padding: 5%; ">V-league</a></h3>
+<!--logo --><img id="img_logo" src="https://upload.wikimedia.org/wikipedia/vi/f/f9/Bundesliga_logo_%282017%29.png" alt="">
+            <h3 id="home_page" ><a href="BT Nhom6.html" style=" text-decoration: none; padding: 5%;">Home</a></h3>
+            <h3 id="nha_page"><a href="#" style="padding: 2%;text-decoration: none; ">Premier League</a></h3>
+            <h3 id="laliga_page"><a href="Laliga.html" style="padding: 8%;text-decoration: none; ">Laliga</a></h3>
+            <h3 style="margin-left: 7%;"> <a href="#" style="background-color: transparent; padding: 5%; color: white; border-bottom: 2px solid white; text-decoration: none;">Bundesliga</a></h3>
+            <h3 style="margin-left: 7%;width: 10%;"><a href="vleague.html" style="text-decoration: none; padding: 5%; ">V-league</a></h3>
     </header>
     <main>
        <!--Top_news--><div style="display: flex;">
